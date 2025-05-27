@@ -1,0 +1,6 @@
+.menu-link {
+  @apply flex flex-col items-center hover:text-blue-500 transition-all
+}
+.menu-link.active {
+    @apply text-blue-500
+}
