@@ -15,7 +15,7 @@ const ProductItem = ({item}) => {
            <img
              src={item.img}
              alt=""
-             className="h-28 object-cover w-full border-b"
+             className="w-full h-28 object-cover aspect-square"
            />
          </div>
          <div className="product-info flex flex-col p-3">
