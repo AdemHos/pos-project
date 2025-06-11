@@ -1,4 +1,3 @@
-
 # 🧾 Well POS - Web Tabanlı Satış ve Stok Yönetim Sistemi
 
 Well POS, küçük ve orta ölçekli işletmelerin ürün satışı, stok takibi, fatura/fiş oluşturma ve yazdırma gibi işlemlerini kolayca gerçekleştirmesine olanak sağlayan modern bir satış noktası (POS) uygulamasıdır.
@@ -6,33 +5,37 @@ Well POS, küçük ve orta ölçekli işletmelerin ürün satışı, stok takibi
 ## 🚀 Canlı Demo
 
 🔗 [https://pos-project-4781.onrender.com](https://pos-project-4781.onrender.com)  
-🧑‍💼 Test Kullanıcısı:  
-- E-posta: **şaban@test.com**  
+🧑‍💼 Test Kullanıcısı:
+
+- E-posta: **şaban@test.com**
 - Şifre: **12345**
 
 ---
 
 ## 📷 Ekran Görüntüleri
 
-> *Ürün listeleme, fatura yazdırma, sepet yönetimi gibi ekran görüntüleri buraya eklenebilir.*
+> _Ürün listeleme, fatura yazdırma, sepet yönetimi gibi ekran görüntüleri buraya eklenebilir._
 
 ---
 
 ## 🔧 Teknolojiler
 
 ### 🌐 Frontend
+
 - React.js
 - Ant Design
 - React Router
 - Redux Toolkit
 
 ### 🖥️ Backend
+
 - Node.js
 - Express.js
 - MongoDB (Mongoose)
 - Bcrypt
 
 ### 🛠️ Diğer
+
 - Render (Deployment)
 - dotenv
 - CORS
@@ -50,15 +53,16 @@ Well POS, küçük ve orta ölçekli işletmelerin ürün satışı, stok takibi
 ✅ Günlük satış takibi  
 ✅ Toplam gelir ve vergi hesaplama  
 ✅ Duyarlı (responsive) tasarım  
-✅ Admin paneli üzerinden tam yetki yönetimi  
+✅ Admin paneli üzerinden tam yetki yönetimi
 
 ---
 
 ## ⚙️ Kurulum
 
 ### 1. Repoyu klonlayın
+
 ```bash
-git clone https://github.com/kullaniciadi/well-pos.git
+git clone https://github.com/AdemHos/pos-project.git
 cd pos-project
 ```
 
@@ -87,6 +91,7 @@ npm start
 ```
 
 - `.env` dosyası oluşturun:
+
 ```
 VITE_APP_API_URL=https://pos-project-backend-xxxx.onrender.com
 ```
@@ -95,7 +100,7 @@ VITE_APP_API_URL=https://pos-project-backend-xxxx.onrender.com
 
 ## 🌐 Deployment
 
-- **Frontend**: Render (Static Site olarak)  
+- **Frontend**: Render (Static Site olarak)
 - **Backend**: Render (Web Service olarak)
 
 > Render üzerinde her iki uygulama için ayrı servisler tanımlanmış ve istemci `.env` dosyasında backend URL’si ayarlanmıştır.
